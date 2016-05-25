@@ -19,7 +19,7 @@ enc_cfg_t _ctx_iface(dcf_t s, enc_cfg2_t i){
 /* End here */
 
 //TOneverDO change name
-u64 HammingCtr(u64 a, u64b) {
+u64 HammingCtr(u64 a, u64 b) {
   u64 c = a ^ b;
 
   /*for(c = 0; c>0; c >>= 1)
@@ -76,6 +76,3 @@ int main() {
     u64 *out = ConvolutedMagic(x,y,z,n_samples,64);
     
     for(int i=0; i<n_samples;i++) {
-      
-    }
-}
